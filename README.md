@@ -16,6 +16,18 @@ By the end of the lab, you will be able to comfortably implement VPC peering, kn
   
 <h2>Program walk-through:</h2>
 
+In INSTANCE1, ping the public IP address for INSTANCE2:<br/>
+ping <INSTANCE2_PUBLIC_IP_ADDRESS>
+
+<br/>
+ 
+<p align="center">
+<img src="https://i.imgur.com/GGj5FUp.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+</p>
+
+<br />
+<br />
+
 1. In the AWS Console, navigate to the VPC Dashboard.
 2. Click Network ACLs.
 3. Select Public2-NACL.
@@ -27,7 +39,7 @@ By the end of the lab, you will be able to comfortably implement VPC peering, kn
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/rSiat6k.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -43,7 +55,7 @@ By the end of the lab, you will be able to comfortably implement VPC peering, kn
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/kbEikOD.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -54,7 +66,8 @@ At the top of the page, click Actions, and select Accept Request.
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/9DrNn3A.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/srEYrxU.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -70,7 +83,7 @@ At the top of the page, click Actions, and select Accept Request.
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/TzjaAzC.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -81,7 +94,7 @@ Repeat these steps for Private1-RT
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/wHYlTDn.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -97,7 +110,7 @@ Repeat these steps for Private1-RT
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/8Iqmckm.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -107,7 +120,7 @@ Repeat these steps for Private2-RT
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/K2B59rB.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -120,7 +133,7 @@ There should be communication.
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/PogWjQ5.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -136,7 +149,7 @@ There should be communication.
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/456KmJ6.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -148,7 +161,7 @@ Select the pending connection and at the top of the page, click Actions, and sel
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/5fBTmcd.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -165,7 +178,7 @@ Select the pending connection and at the top of the page, click Actions, and sel
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/9TbimCf.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -181,7 +194,7 @@ Select the pending connection and at the top of the page, click Actions, and sel
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/3mWQ4A7.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -192,7 +205,7 @@ Back in INSTANCE1, ping the public IP address for INSTANCE3. There shouldn’t b
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/KDeHyeg.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -212,7 +225,7 @@ Back in INSTANCE1, ping the public IP address for INSTANCE3. There shouldn’t b
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/WjzLv7m.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -223,7 +236,7 @@ Click the Outbound Rules tab, and repeat these steps.
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/JN7l9G4.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -239,7 +252,7 @@ Click the Outbound Rules tab, and repeat these steps.
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/siLySrM.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -252,7 +265,7 @@ At the top of the page, click Actions, and select Accept Request.
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/RyaCjaX.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -268,7 +281,7 @@ At the top of the page, click Actions, and select Accept Request.
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/EwqAORM.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -279,7 +292,7 @@ Repeat these steps for Private1-RT
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/VFfpvKK.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -296,7 +309,7 @@ Repeat these steps for Private1-RT
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/8MbqAwv.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -307,7 +320,7 @@ In the INSTANCE1 terminal, ping the public IP address for INSTANCE3 again
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/SJTUlyC.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -318,12 +331,13 @@ In the INSTANCE1 terminal, ping the public IP address for INSTANCE3 again
 3. Copy the Public DNS (IPv4) URL.
 4. In the INSTANCE1 terminal, ping the Instance2 URL:
 - ping <INSTANCE2_PUBLIC_DNS>
+There should not be any communication
 
 
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/4jqMYZ5.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -337,7 +351,7 @@ In the INSTANCE1 terminal, ping the public IP address for INSTANCE3 again
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/Fh4mBXU.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -348,7 +362,7 @@ In the INSTANCE1 terminal, ping the Instance2 URL and there should be communicat
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/v8bmRJH.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
