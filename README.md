@@ -330,7 +330,7 @@ In the INSTANCE1 terminal, ping the public IP address for INSTANCE3 again
 2. Select Instance2.
 3. Copy the Public DNS (IPv4) URL.
 4. In the INSTANCE1 terminal, ping the Instance2 URL:
-- ping <INSTANCE2_PUBLIC_DNS>
+- ping <INSTANCE2_PUBLIC_DNS><br/>
 There should not be any communication
 
 
