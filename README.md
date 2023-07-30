@@ -13,6 +13,7 @@ By the end of the lab, you will be able to comfortably implement VPC peering, kn
 
 - <b>Windows 11</b>
 - <b>AWS</b>
+- <b>Linux</b>
   
 <h2>Program walk-through:</h2>
 
